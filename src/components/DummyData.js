@@ -48,3 +48,96 @@ export const userData = [
     "Active User": 7000,
   },
 ];
+
+export const UserRows = [
+  {
+    id: 1,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 2,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 3,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 4,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 5,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 6,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 7,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 8,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 9,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 10,
+    userName: "Jhon Doe",
+    avatar:
+      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+    email: "demo@demo.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+];
