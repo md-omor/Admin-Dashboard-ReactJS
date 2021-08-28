@@ -24,8 +24,10 @@ const Sidebar = () => {
             <h3 className="sidebarTitle">Dashboard</h3>
             <ul className="sidebarList">
               <li className="sidebarListItem active">
-                <LineStyle className="sidebarIcon" />
-                Home
+                <Link to="/" className="link">
+                  <LineStyle className="sidebarIcon" />
+                  Home
+                </Link>
               </li>
               <li className="sidebarListItem">
                 <Timeline className="sidebarIcon" />
