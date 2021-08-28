@@ -34,13 +34,21 @@ const NewUser = () => {
             <label>Gender</label>
             <div className="newUserGender">
               <input type="radio" name="gender" id="male" value="male" />
-              <label htmlFor="Male"></label>
+              <label htmlFor="male">Male</label>
               <input type="radio" name="gender" id="female" value="female" />
-              <label htmlFor="Female"></label>
+              <label htmlFor="female">Female</label>
               <input type="radio" name="gender" id="other" value="other" />
-              <label htmlFor="Other"></label>
+              <label htmlFor="other">Other</label>
             </div>
           </div>
+          <div className="newUserItem">
+            <label>Active</label>
+            <select name="active" id="active" className="newUserSelect">
+              <option value="yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <button className="newUserButton">Create</button>
         </form>
       </div>
     </Wrapper>
@@ -49,6 +57,53 @@ const NewUser = () => {
 
 const Wrapper = styled.div`
   flex: 4;
+  .newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .newUserItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  .newUserItem > input {
+    height: 20px;
+    padding: 20px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+  }
+  .newUserGender > input {
+    margin-top: 15px;
+  }
+  .newUserGender > label {
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+  }
+  .newUserSelect {
+    height: 40px;
+    border-radius: 5px;
+  }
+  .newUserButton {
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: #fff;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
 `;
 
 export default NewUser;

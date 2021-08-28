@@ -49,6 +49,21 @@ export const userData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Jan",
+    Sales: 4000,
+  },
+  {
+    name: "Feb",
+    Sales: 3000,
+  },
+  {
+    name: "Mar",
+    Sales: 5000,
+  },
+];
+
 export const UserRows = [
   {
     id: 1,
@@ -126,7 +141,7 @@ export const UserRows = [
     id: 9,
     userName: "Jhon Doe",
     avatar:
-      "https://images.unsplash.com/photo-1623330188314-8f4645626731?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80",
+      "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
     email: "demo@demo.com",
     status: "active",
     transaction: "$120.00",
@@ -139,5 +154,89 @@ export const UserRows = [
     email: "demo@demo.com",
     status: "active",
     transaction: "$120.00",
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 3,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 4,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 5,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 6,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 7,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 8,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 9,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+    stock: "123",
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 10,
+    name: "Apple Airpords",
+    img: "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80",
+
+    stock: "123",
+    status: "active",
+    price: "$120.00",
   },
 ];
