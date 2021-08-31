@@ -1,4 +1,5 @@
 import { Language, NotificationsNone, Settings } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Topbar = () => {
@@ -6,9 +7,12 @@ const Topbar = () => {
     <Wrapper>
       <div className="topbar">
         <div className="topbarWrapper">
-          <div className="topLeft">
-            <span className="logo">OmorAdmin</span>
-          </div>
+          <Link to="/" className="link">
+            <div className="topLeft">
+              <span className="logo">OmorAdmin</span>
+            </div>
+          </Link>
+
           <div className="topRight">
             <div className="topbarIconContainer">
               <NotificationsNone />

@@ -4,4 +4,4 @@
 
 ### <a href="https://mdomor.netlify.app">LIVE DEMO</a>
 
-<img src="admin_dashboard.png"/>
+![alt text](admin_dashboard.png)
